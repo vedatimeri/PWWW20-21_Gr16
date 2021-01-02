@@ -5,15 +5,16 @@ body {
 
 header{
     margin-top: -40px;
+    height: 125px;
 }
 .left{
     float: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 10px;
 }
 .right{
     float: right;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: 45px;
 }
 
@@ -63,3 +64,193 @@ input[type="submit"]{
     border:1px solid #3e3e3e;
     color: white;
 }
+
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#373737;
+    padding: 0;
+  }
+  
+  .menu li {
+      padding:5px;
+      margin: 5px;
+      text-transform: uppercase;
+      float:left;
+  }
+  .menu li a {
+    display: block;
+    color: white;
+    font-size:12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+
+  .baner {
+      background-color: black;
+      width: 1299px;
+      height: 500px;
+      margin-top: -21px;
+    
+  }
+    #fotoja img{
+    width: 1299px;
+    height: 485px;
+  }
+
+  /* Imazhet */
+  .imazhet{
+      width: 70px;
+      background: red;
+  }
+
+
+  /* Footer lists */
+
+    #linksfooter {
+    background:#f2f2f2 !important; 
+    height: 370px;
+    }
+    
+    .first, .second, .third, .fourth {
+          float: left;
+          width: 25%;
+          height: 300px;
+    
+           
+       }
+    
+ .container ul li a{
+     color: #660000;
+    text-decoration:none;
+    
+    }
+    .first, .second, .third, .fourth, ul li{
+    list-style:none;
+    margin-bottom: 3px;
+}
+
+.textsection {
+    font-size: 18pt;
+    color: #666666;
+    padding: 10px;
+    font-weight: 300;
+    margin: 20px;
+    margin-left: 25px;
+}
+hr{
+    border-top: 1px solid #e2e2e2;
+    margin-left: 37px;
+}
+
+footer {
+    height: 65px;
+    background-color: #1f1f1f;
+    margin-top: -15px;
+}
+
+.footer p{
+    font-size: 12pt;
+    color: #727272;
+    margin: 5px;
+    margin-left: 37px;
+    
+}
+
+/* Popup login */
+
+.popup-overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100vh;
+    z-index:1;
+    background:rgba(0,0,0,0.5);
+    display:none;
+  }
+  .popup {
+    position:absolute;
+    top:-150%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(1.15);
+    width:300px;
+    height:440px;
+    background:#f5f5f5;
+    z-index:2;
+    opacity:0;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+    transition:transform 300ms ease-in-out,opacity 300ms ease-in-out;
+  }
+  body.showLoginForm .popup-overlay {
+    display:block;
+  }
+  body.showLoginForm .popup {
+    top:50%;
+    opacity:1;
+    transform:translate(-50%,-50%) scale(1);
+  }
+  .popup .popup-close {
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    width:40px;
+    height:40px;
+    background:#555;
+    color:#f5f5f5;
+    font-size:25px;
+    font-weight:600;
+    text-align:center;
+    border-radius:50%;
+    cursor:pointer;
+  }
+  .popup .form .avatar {
+    margin:30px 0px 20px;
+    text-align:center;
+  }
+  .popup .form .avatar img {
+    width:120px;
+    border-radius:50%;
+  }
+  .popup .form .header {
+    text-align:center;
+    font-size:20px;
+    font-weight:600;
+    color:#222;
+    margin:20px 0px;
+  }
+  .popup .form .element {
+    padding:8px 20px;
+  }
+  .popup .form .element label {
+    display:block;
+    font-size:14px;
+    color:#222;
+    margin-bottom:5px;
+  }
+  .popup .form .element input {
+    width:100%;
+    padding:8px 10px;
+    box-sizing:border-box;
+    outline:none;
+    border:1px solid #aaa;
+    background:#eee;
+    border-radius:5px;
+  }
+  .popup .form .element button {
+    margin-top:5px;
+    width:100%;
+    padding:10px 0px;
+    text-transform:uppercase;
+    outline:none;
+    border:none;
+    font-size:15px;
+    font-weight:600;
+    border-radius:5px;
+    cursor:pointer;
+    background:#3D585C;
+    color:#f5f5f5;
+  }
