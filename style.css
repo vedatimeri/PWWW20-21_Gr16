@@ -91,14 +91,14 @@ input[type="submit"]{
 
   .baner {
       background-color: black;
-      width: 1299px;
+      width: 1469px;
       height: 500px;
       margin-top: -21px;
     
   }
     #fotoja img{
-    width: 1299px;
-    height: 485px;
+    width: 1469px; 
+     height: 485px; 
   }
 
   /* Imazhet */
