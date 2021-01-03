@@ -1,13 +1,13 @@
 .background{
     background-color:#E2E2E2;
-    width: 1469px;
+    width: 1299px;
     height: 900px;
 }
 
 .whitebackground{
     margin-top: 10px;
     background-color: white;
-    width: 1469px;
+    width: 1299px;
     height: 600px;
 
 
@@ -15,7 +15,7 @@
 }
 .img-table{
     margin-top: 100px;
-    margin-left: 140px;
+    margin-left: 80px;
     margin-right: 80px;
     
 
@@ -44,7 +44,7 @@
 
      .c1{
         margin-top: 50px;
-        margin-left: 130px;
+        margin-left: 64px;
         margin-right: 10px
 
      }
@@ -125,7 +125,7 @@
 .photos{
     margin-top: -100px;
     background-color: white;
-    width: 1469;
+    width: 1299px;
     height: 320px;
     margin-bottom: 1px;
 }
