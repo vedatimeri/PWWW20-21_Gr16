@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image-style.css">
+    <link rel="stylesheet" href="CStyle.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+        <h1>Open University</h1>
+        <p>Free PSD Website Template</p>
+        </div>
+        <div class="right">
+        <div class="menu-top">
+            <a href="#">A-Z Index</a> | <a href="#">Student Login</a> | <a href="#" onclick="openLoginForm()">Staff Login</a>
+        </div>
+
+        <div class="search">
+            <form action="">
+                <input type="search" name="search" id="search" placeholder="Search Our Website...">
+                <input type="submit" value="SEARCH">
+                </form>
+        </div>
+    </div>
+    </header>
+    
+        <section class="menu">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Style Demo</a></li>
+                <li><a href="#">Full width</a></li>
+                <li><a href="#">Dropdown</a></li>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#">Gallery </a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="baner">  
+        <div id="fotoja">
+            <img src="images/graduation.jpg" alt="">
+        </div> 
+    </section>
+    <div class="klasa">
+        <form action="/action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Regjistrohuni</h1>
+              <p>Ju lutemi jepni te dhenat me poshte per te hapur akountin.</p>
+              <hr>
+        
+              <label for="Emri"><b>Emri</b></label>
+              <input type="text" placeholder="Shenoni Emrin" name="Name">
+        
+              <label for="Mmbiemri"><b>Mbiemri</b></label>
+              <input type="text" placeholder="Shenoni Mbiemrin" name="Surname">
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Shenoni Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Shenoni Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Perseritni Password" name="psw-repeat" required>
+              
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">Me Kujtoni
+              </label>
+              
+              <p>Duke krijuar akountin ju pajtoheni me  <a href="#" style="color:dodgerblue">Terms & Privacy </a> te Universitetit tone.</p>
+        
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Regjistrohu</button>
+              </div>
+            </div>
+          </form>
+    </div>
+    
+  <!-- Regjistrmi form   -->
+<div class="popup-overlay"></div>
+    <div class="popup">
+      <div class="popup-close" onclick="closeLoginForm()">&times;</div>
+      <div class="form">
+        <div class="avatar">
+            <svg class="icon" height="100px" viewBox="0 0 1366 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path d="M677.647059 0C394.541176 0 165.647059 228.894118 165.647059 512c0 283.105882 228.894118 512 512 512 283.105882 0 512-228.894118 512-512C1189.647059 228.894118 960.752941 0 677.647059 0zM528.564706 314.729412c7.529412-19.576471 19.576471-37.647059 34.635294-52.705882 15.058824-15.058824 33.129412-27.105882 51.2-34.635294 19.576471-7.529412 40.658824-12.047059 60.235294-12.047059 21.082353 0 42.164706 4.517647 60.235294 12.047059 19.576471 7.529412 37.647059 19.576471 51.2 34.635294 15.058824 15.058824 27.105882 33.129412 34.635294 52.705882 7.529412 19.576471 12.047059 40.658824 12.047059 61.741176 0 21.082353-4.517647 42.164706-12.047059 61.741176-7.529412 19.576471-19.576471 37.647059-34.635294 52.705882-15.058824 15.058824-33.129412 27.105882-51.2 34.635294-19.576471 7.529412-40.658824 12.047059-60.235294 12.047059-21.082353 0-42.164706-4.517647-60.235294-12.047059-19.576471-7.529412-37.647059-19.576471-51.2-34.635294-15.058824-15.058824-27.105882-33.129412-34.635294-52.705882-7.529412-19.576471-12.047059-40.658824-12.047059-61.741176C516.517647 353.882353 521.035294 332.8 528.564706 314.729412zM927.623529 772.517647c-6.023529 16.564706-18.070588 25.6-34.635294 34.635294-15.058824 9.035294-36.141176 12.047059-58.729412 12.047059 0 0 0 0 0 0l-316.235294 0c0 0 0 0 0 0-22.588235 0-42.164706-4.517647-58.729412-13.552941-16.564706-9.035294-28.611765-22.588235-34.635294-37.647059-6.023529-16.564706-6.023529-40.658824 0-58.729412 3.011765-7.529412 4.517647-16.564706 9.035294-24.094118 45.176471-87.341176 137.035294-147.576471 242.447059-147.576471 76.8 0 146.070588 30.117647 195.764706 81.317647 21.082353 22.588235 33.129412 39.152941 45.176471 63.247059 4.517647 7.529412 9.035294 15.058824 10.541176 24.094118 3.011765 9.035294 6.023529 22.588235 6.023529 34.635294C933.647059 752.941176 930.635294 763.482353 927.623529 772.517647z" fill="#3D585C" /></svg>
+        </div>
+        <div class="header">
+          Staff Login
+        </div>
+        <div class="element">
+          <label for="username">Username</label>
+          <input type="text" id="username">
+        </div>
+        <div class="element">
+          <label for="password">Password</label>
+          <input type="password" id="password">
+        </div>
+        <div class="element">
+          <button>Kycuni</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Copyright © <script type="text/javascript">
+          document.write(new Date().getFullYear());
+          </script> All Rights Reserved - Open University.  </p>
+  </footer>
+</body>
+</html>
